@@ -1,0 +1,1 @@
+$('.top_line nav a, .top_')
