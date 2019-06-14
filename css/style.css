@@ -127,7 +127,7 @@ body {
     margin-top: 30px;
 }
 
-.elementor-button:hover {
+.elementor-button:hover{
     color: #ffe; /* Цвет текста активного пункта */
     background-color: #006ec4; /* Цвет фона активного пункта */
     background-color: #006ec4;
@@ -142,6 +142,23 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+ .elementor-button:focus{
+    background-color: rgba(0,0,0,0);
+    color: #ffffff;
+    padding: 19px 43px 19px 43px;
+    margin: 40px 0px 0px 2px;
+    border-radius: 0px 0px 0px 0px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
 
 ul.bannerSlider{
   padding-left:0;
@@ -237,6 +254,19 @@ img.slide__image__top-position {
     margin: 0;
 }
 
+.text-element-button:focus{
+    background-color: #006ec4;
+    color: #ffffff;
+    padding: 19px 43px 19px 43px;
+    margin: 40px 0px 0px 2px;
+    transition: 0.3s linear; /* Время изменения */
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: none;
+}
 
 
 .text-element{
@@ -414,6 +444,13 @@ a.button:hover{
   color:#f1f2f3;
   text-decoration:none;
 }
+
+a.button:focus{
+  background:#054271;
+  border-bottom:3px solid #054271;
+  color:#f1f2f3;
+  text-decoration:none;
+}
 @media screen and (max-width: 960px) { 
   #columns figure { width: 24%; }
 }
@@ -573,6 +610,7 @@ a.button:hover{
     font-weight: normal;
     text-transform: none;
     font-style: normal;
+    padding: 0 20px;
 }
 
 .advantages h3{
@@ -585,6 +623,9 @@ a.button:hover{
     font-style: normal;
 }
 
+.text-container-20{
+    background-color: #f2f2f2;
+}
 .advantages i{
    /*font-size: 36px;
    color: #fff;

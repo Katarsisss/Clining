@@ -30,19 +30,19 @@
         <div id="navbar" class="navbar-collapse collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Главная</a></li>
-                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">Каталог товаров</a></li>
-                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">О компании</a></li>
-                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Видео</a></li>
-                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">Фото компании</a></li>
-                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">Контакты</a></li>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#reviews">Отзывы клиентов</a></li>
+                <li><a href="#photo">Фото компании</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 
 <!--  BANNER SLIDER  -->
-<div class="banner">
+<div id="home" class="banner">
     <div class="row fullwidth">
         <div class="col-md-12">
             <ul class="bannerSlider">
@@ -120,7 +120,7 @@
     </div>
 </div>
 
-<div class="container">
+<div id="products" class="container">
     <h1>Товары</h1>
     <ul class="tabs">
         <li class="tab-link current" data-tab="tab-1">Пеногенераторы и пенные станции</li>
@@ -559,7 +559,7 @@
 
 </div><!-- container -->
 
-<div class="text-container">
+<div id="catalog" class="text-container-20">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -571,7 +571,7 @@
                             индустриальных очистителей, профессиональных моющих и дезинфицирующих средств для решения
                             широкого спектра задач на предприятиях пищевой отрасли, агропромышленного комплекса,
                             индустрии, транспорта.</p></div>
-                        <div class="button-text-block button-slider button-small popup-btn"><a class="text-element-button" href="#">Скачать</a></div>
+                        <div class="button-text-block button-slider button-small"><a class="text-element-button" href="#">Скачать</a></div>
                     </div>
 
                 </div>
@@ -597,11 +597,10 @@
         <div class="advantages">
             <div class="col-sm-4">
                 <div class="item">
-                    <div><i class="fa fa-500px"></i>
+                    <div><i class="fa fa-cogs"></i>
                         <h3>Качество</h3>
                     </div>
-                    <p>We always stand for doing our job fast and at the highest level as understand people value their
-                        time and money.</p>
+                    <p>Каждый новый продукт — это длительный цикл работ огромного числа профессионалов своего дела.</p>
                 </div>
             </div>
         </div>
@@ -609,11 +608,10 @@
         <div class="advantages">
             <div class="col-sm-4">
                 <div class="item">
-                    <div><i class="fa fa-500px"></i>
+                    <div><i class="fa fa-compass"></i>
                         <h3>Новаторство</h3>
                     </div>
-                    <p>We always stand for doing our job fast and at the highest level as understand people value their
-                        time and money.</p>
+                    <p>С момента основания мы вкладываем все силы в разработку инновационных моющих средств.</p>
                 </div>
             </div>
         </div>
@@ -621,11 +619,10 @@
         <div class="advantages">
             <div class="col-sm-4">
                 <div class="item">
-                    <div><i class="fa fa-500px"></i>
+                    <div><i class="fa fa-fire-extinguisher"></i>
                         <h3>Безопасность</h3>
                     </div>
-                    <p>We always stand for doing our job fast and at the highest level as understand people value their
-                        time and money.</p>
+                    <p>Все выпускаемые продукты проходят несколько фаз производственного и пост производственного контроля.</p>
                 </div>
             </div>
         </div>
@@ -804,7 +801,7 @@
 </div>
 
 
-<div class="container">
+<div id="photo" class="container">
     <div class="container">
 
 
@@ -894,7 +891,7 @@
 </div>
 
 
-<div class="footer">
+<div id="contacts" class="footer">
     <div class="container">
         <!--  <div class="footer-block">
              <div class="logo-footer"><img src="img/logo.png" alt=""></div>
@@ -1002,6 +999,7 @@
 <script src="js/tabs.js"></script>
 <script src="js/light-box.js"></script>
 <script src="js/forms.js"></script>
+<script src="js/menu-scroll.js"></script>
 <script>
     baguetteBox.run('.tz-gallery');
 </script>
