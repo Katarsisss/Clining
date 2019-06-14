@@ -1,757 +1,1008 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/light-box.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"/>
 </head>
 <body>
-	  <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img src="img/logo_3700.png" alt="">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="img/logo_3700.png" alt="">
         </div>
         <div id="navbar" class="navbar-collapse collapse">
- 
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Home</a></li>
-            <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">About</a></li>
-            <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">Services</a></li>
-            <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Products</a></li>
-            <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">Blog</a></li>
-            <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">Contacts</a></li>
-          </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Главная</a></li>
+                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">Каталог товаров</a></li>
+                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">О компании</a></li>
+                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar/">Видео</a></li>
+                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-static-top/">Фото компании</a></li>
+                <li><a href="http://getbootstrap.ru/docs/3.3.7/examples/navbar-fixed-top/">Контакты</a></li>
+            </ul>
         </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <!--  BANNER SLIDER  -->
-	<div class="banner">
-		<div class="row fullwidth">
-			<div class="col-md-12">
-				<ul class="bannerSlider">
-          <!--  1. slide  -->
-					<li class="slide">
-						<a href="#">
-							<div class="container">
-							<div class="slide__text">
-								<h2>This is the otter.</h2>
-							</div>
-							</div>
-							<div class="slide__image">
-								<img src="img/slide-1-1024x277.jpg" alt="" />
-							</div>
-						</a>
-					</li>
-          <!--  2. slide  -->
-					<li class="slide">
-						<a href="#">
-							<div class="container">
-							<div class="slide__text">
-								<h2>Otters are cool. </h2>
-							</div>
-							</div>
-							<div class="slide__image">
-								<img src="img/slide-2-1024x277.jpg" alt="" />
-							</div>
-						</a>
-					</li>
-          <!--  3. slide  -->
-					<li class="slide">
-						<a href="#">
-							<div class="container">
-							<div class="slide__text">
-								<h2>They swim, eat and sleep.</h2>
-							</div>
-							</div>
-							<div class="slide__image">
-								<img src="img/slide-3-1024x277.jpg" alt="" />
-							</div>
-						</a>
-					</li>
-          <!--  4. slide  -->
-					<li class="slide">
-						<a href="#">
-							<div class="container">
-							<div class="slide__text">
-								<h2>Coming soon.</h2>
-							</div>
-							</div>
-							<div class="slide__image">
-								<img src="img/slide-2-1024x277.jpg" alt="" />
-							</div>
-						</a>
-					</li>
-          
-				</ul>
-		</div>
-	</div>
-	</div>
+<!--  BANNER SLIDER  -->
+<div class="banner">
+    <div class="row fullwidth">
+        <div class="col-md-12">
+            <ul class="bannerSlider">
+                <!--  1. slide  -->
+                <li class="slide">
+                    <div class="container">
+                        <div class="slide__text">
+                            <h5>22-х летний опыт комплексного внедрения и сопровождения</h5>
+                            <div class="button-slider button-small popup-btn"><a class="elementor-button" href="#">Оставить заявку</a></div>
+                        </div>
+                    </div>
+                    <div class="slide__image">
+                        <img src="img/slide-1-1024x277.jpg" alt=""/>
+                    </div>
+              
+                </li>
+                <!--  2. slide  -->
+                <li class="slide">
+                    <div class="container">
+                        <div class="slide__text">
+                            <h5>Эксперт в области санитарии и гигиены на производстве</h5>
+                            <div class="button-slider button-small popup-btn"><a class="elementor-button" href="#">Оставить заявку</a></div>
+                        </div>
+                    </div>
+                    <div class="slide__image">
+                        <img src="img/slide-2-1024x277.jpg" alt=""/>
+                    </div>
+                   
+                </li>
+                <!--  3. slide  -->
+                <li class="slide">
+                    <div class="container">
+                        <div class="slide__text">
+                            <h5>Лидер во внедрении и сопровождении комплекса санитарии и гигиены</h5>
+                            <div class="button-slider button-small popup-btn"><a class="elementor-button" href="#">Оставить заявку</a></div>
+                        </div>
+                    </div>
+                    <div class="slide__image">
+                        <img src="img/slide-3-1024x277.jpg" alt=""/>
+                    </div>
+               
+                </li>
+                <!--  4. slide  -->
+                <li class="slide">
+                    <div class="container">
+                        <div class="slide__text">
+                            <h5>22-х летний опыт комплексного внедрения и сопровождения</h5>
+                            <div class="button-slider button-small popup-btn"><a class="elementor-button" href="#">Оставить заявку</a></div>
+                        </div>
+                    </div>
+                    <div class="slide__image">
+                        <img src="img/slide-4-1024x277.jpg" alt=""/>
+                    </div>
+             
+                </li>
 
-<div class="text-container">
-<div class="container">
-	<div class="row">
-			<div class="col-md-12">
-               <div class="box">
-               	<div class="text-element">Welcome!</div>
-               	<div class="text-element-2"><p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p></div>
-               </div>
-	</div>
-	</div>
+            </ul>
+        </div>
     </div>
 </div>
 
+<div class="text-container-7">
     <div class="container">
-<h1>Товары</h1>
-	<ul class="tabs">
-		<li class="tab-link current" data-tab="tab-1">Товар 1</li>
-		<li class="tab-link" data-tab="tab-2">Товар 2</li>
-		<li class="tab-link" data-tab="tab-3">Товар 3</li>
-		<li class="tab-link" data-tab="tab-4">Товар 4</li>
-	</ul>
-<!-- Первый товар -->
-	<div id="tab-1" class="tab-content current">
-
-<div id="wrap">
-  <div id="columns" class="columns_4">
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure> 
-  
-   <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-    <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="text-element">Производительность и надёжность</div>
+                    <div class="text-element-2"><p>ГК «Технология чистоты» выпускает большой ассортимент продукции более
+                        180 наименований индустриальных очистителей, профессиональных моющих и дезинфицирующих средств
+                        для решения широкого спектра задач на предприятиях пищевой отрасли, агропромышленного комплекса,
+                        индустрии, транспорта.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-		
+
+<div class="container">
+    <h1>Товары</h1>
+    <ul class="tabs">
+        <li class="tab-link current" data-tab="tab-1">Пеногенераторы и пенные станции</li>
+        <li class="tab-link" data-tab="tab-2">Дезковрики</li>
+        <li class="tab-link" data-tab="tab-3">Профессиональный моющий инвентарь</li>
+        <li class="tab-link" data-tab="tab-4">Генераторы холодного тумана</li>
+        <li class="tab-link" data-tab="tab-5">Санпропусники</li>
+    </ul>
+    <!-- Первый товар -->
+    <div id="tab-1" class="tab-content current">
+
+        <div id="wrap">
+            <div id="columns" class="columns_4">
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/ACG-25-S.jpg">
+                    <figcaption>Пеногенератор ACG/25/S</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/ACG-50-F.jpg">
+                    <figcaption>Пеногенератор ACG/50/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/ACG-50-S.jpg">
+                    <figcaption>Пеногенератор ACG/50/S</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/ACG-100-F.jpg">
+                    <figcaption>Пеногенератор ACG-100-F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button button-slider button-small popup-btn" href="#">Оставить заявку</a>
+                </figure>
+            </div>
+        </div>
 
 
+    </div>
+    <div id="tab-2" class="tab-content">
+        <div id="wrap">
+            <div id="columns" class="columns_4">
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 200х200х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-	</div>
-	<div id="tab-2" class="tab-content">
-		 <div id="wrap">
-  <div id="columns" class="columns_4">
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure> 
-  
-   <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-    <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 150х200х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 150х150х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 100х200х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-</div>
-</div>
-	</div>
-	<div id="tab-3" class="tab-content">
-		<div id="wrap">
-  <div id="columns" class="columns_4">
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure> 
-  
-   <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-    <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 100х150х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 100х100х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 80х100х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-</div>
-</div>
-	</div>
-	<div id="tab-4" class="tab-content">
-		<div id="wrap">
-  <div id="columns" class="columns_4">
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure>
-  
-   <figure>
-   <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-  <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-    <span class="price">10000р</span>
-    <a class="button" href="#">Заказать</a>
-  </figure> 
-  
-   <figure>
-  <img src="img/2482.400.jpg">
-  <figcaption>Пеногенератор ACG/25/F</figcaption>
-     <span class="price">10000р</span>
-     <a class="button" href="#">Заказать</a>
-  </figure>
-  
-    <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 70х100х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 65х100х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 60х100х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
 
-  <figure>
-  <img src="img/2482.400.jpg">
-    <figcaption>Пеногенератор ACG/25/F</figcaption>
-      <span class="price">10000р</span>
-      <a class="button" href="#">Заказать</a>
-  </figure> 
-</div>
-</div>
-	</div>
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 50х100х3 см</figcaption>
+                    <!-- <!-- <span class="price">10000р</span> --> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/ECO-200x200x3-cm.jpg">
+                    <figcaption>Дезковрик ЭКО 50х80х3 см</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div id="tab-3" class="tab-content">
+        <div id="wrap">
+            <div id="columns" class="columns_4">
+                <figure>
+                    <img src="img/FBK-300-x-310mm.jpg">
+                    <figcaption>Большой ручной совок FBK 300 x 310мм</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/300-x-60mm-FBK.jpg">
+                    <figcaption>Щетка-скраб 300 x 60мм FBK жесткая</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <!--   <figure>
+                  <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                    <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                  <figure>
+                  <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                    <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                   <figure>
+                   <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                    <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                   <figure>
+                   <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                     <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                  <figure>
+                  <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                    <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                   <figure>
+                  <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                     <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                    <figure>
+                  <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                      <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                  <figure>
+                  <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                      <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                  <figure>
+                  <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                      <a class="button" href="#">Оставить заявку</a>
+                  </figure>
+
+                  <figure>
+                  <img src="img/2482.400.jpg">
+                    <figcaption>Пеногенератор ACG/25/F</figcaption>
+
+                      <a class="button" href="#">Оставить заявку</a>
+                  </figure>  -->
+            </div>
+        </div>
+    </div>
+    <div id="tab-4" class="tab-content">
+        <div id="wrap">
+            <div id="columns" class="columns_4">
+                <figure>
+                    <img src="img/generator-tumana.jpg">
+                    <figcaption>Генератор холодного тумана</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <!-- <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                 <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                 <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                   <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                   <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                  <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>  -->
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-5" class="tab-content">
+        <div id="wrap">
+            <div id="columns" class="columns_4">
+                <figure>
+                    <img src="img/FBK-300-x-310mm.jpg">
+                    <figcaption>Большой ручной совок FBK 300 x 310мм</figcaption>
+                    <!-- <span class="price">10000р</span> -->
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                    <img src="img/300-x-60mm-FBK.jpg">
+                    <figcaption>Щетка-скраб 300 x 60мм FBK жесткая</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <!-- <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                 <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                 <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                   <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                  <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                 <figure>
+                <img src="img/2482.400.jpg">
+                <figcaption>Пеногенератор ACG/25/F</figcaption>
+                   <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                  <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>
+
+                <figure>
+                <img src="img/2482.400.jpg">
+                  <figcaption>Пеногенератор ACG/25/F</figcaption>
+                    <a class="button" href="#">Оставить заявку</a>
+                </figure>  -->
+            </div>
+        </div>
+    </div>
 
 </div><!-- container -->
 
 <div class="text-container">
-<div class="container">
-  <div class="row">
-      <div class="col-md-12">
-               <div class="box">
-                <div class="text-element"><img src="img/page1-img1-288x300.jpg" alt=""></div>
-                <div class="text-element-2"><div class="text-element">ABOUT US</div><p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p></div>
-               </div>
-  </div>
-  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-2">
+                    <div class="text-element"><img src="img/page1-img1-288x300.jpg" alt=""></div>
+                    <div class="text-element-2">
+                        <div class="text-element">КАТАЛОГ</div>
+                        <div><p>ГК «Технология чистоты» выпускает большой ассортимент продукции более 180 наименований
+                            индустриальных очистителей, профессиональных моющих и дезинфицирующих средств для решения
+                            широкого спектра задач на предприятиях пищевой отрасли, агропромышленного комплекса,
+                            индустрии, транспорта.</p></div>
+                        <div class="button-text-block button-slider button-small popup-btn"><a class="text-element-button" href="#">Скачать</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 
 <div class="block-img">
-        <section class="parallax">
-            <div>
-                <h1>
-    Получайте новые статьи на почту
-  </h1>
-            </div>
-        </section>
-    </div>
+    <section class="parallax">
+        <div class="container">
+            <h1>
+                Эксперт в области санитарии и гигиены на производстве
+            </h1>
+        </div>
+    </section>
+</div>
 
 <!-- Перимущества -->
 <div class="container advantages-block">
     <div class="row">
         <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
+            <div class="col-sm-4">
+                <div class="item">
+                    <div><i class="fa fa-500px"></i>
+                        <h3>Качество</h3>
+                    </div>
+                    <p>We always stand for doing our job fast and at the highest level as understand people value their
+                        time and money.</p>
+                </div>
             </div>
-          </div>
         </div>
 
         <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
+            <div class="col-sm-4">
+                <div class="item">
+                    <div><i class="fa fa-500px"></i>
+                        <h3>Новаторство</h3>
+                    </div>
+                    <p>We always stand for doing our job fast and at the highest level as understand people value their
+                        time and money.</p>
+                </div>
             </div>
-          </div>
         </div>
 
         <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
+            <div class="col-sm-4">
+                <div class="item">
+                    <div><i class="fa fa-500px"></i>
+                        <h3>Безопасность</h3>
+                    </div>
+                    <p>We always stand for doing our job fast and at the highest level as understand people value their
+                        time and money.</p>
+                </div>
             </div>
-          </div>
         </div>
     </div>
-    </div>
+</div>
 
+<!-- Прогресс бар -->
 
-    <div class="block-img-2">
-        <section class="parallax">
-            <div>
-                <h1>
-    Получайте новые статьи на почту
-  </h1>
+<div class="text-container-10">
+    <div class="container">
+        <div class="row">
+            
+                <div class="progress-block">
+                    <div class="col-md-6">
+            <h3 class="progressbar-title">ГК «ТЕХНОЛОГИЯ ЧИСТОТЫ» ЗАНИМАЕТ НА РЫНКЕ</h3>
+            <div class="progress-1">
+                <div class="progress-bar" style="width: 21%; background: #4baf4f;">
+                    <span class="progress-value">21%</span>
+                    <span class="progress-icon" style="border-bottom-color: #4baf4f;"></span>
+                </div>
             </div>
-        </section>
-    </div>
-
-
-
-    <!-- Перимущества 2-->
-<div class="container advantages-block">
-    <div class="row">
-        <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
+ 
+            <h3 class="progressbar-title">java script</h3>
+            <div class="progress-1">
+                <div class="progress-bar" style="width: 65%; background: #f44236;">
+                    <span class="progress-value">65%</span>
+                    <span class="progress-icon" style="border-bottom-color: #f44236;"></span>
+                </div>
             </div>
-          </div>
+
+            <h3 class="progressbar-title">HTML</h3>
+            <div class="progress-1">
+                <div class="progress-bar" style="width: 50%; background: #01bbd4;">
+                    <span class="progress-value">50%</span>
+                    <span class="progress-icon" style="border-bottom-color: #01bbd4;"></span>
+                </div>
+            </div>
+ 
+            <h3 class="progressbar-title">java script</h3>
+            <div class="progress-1">
+                <div class="progress-bar" style="width: 65%; background: #fdc006;">
+                    <span class="progress-value">65%</span>
+                    <span class="progress-icon" style="border-bottom-color: #fdc006;"></span>
+                </div>
+            </div>
         </div>
+        <div class="col-md-6">
+        	        <div class="text-element-progress">Компания в цифрах</div>
+                    <div class="text-element-3"><p>Линейка собственных профессиональных моющих и чистящих средств составляет 200 наименований!</p>
 
-        <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
-            </div>
-          </div>
-        </div>
+<p>Мы работаем по всей России и странам СНГ, имеем 3 филиала и более 40 представительств.</p>
 
-        <div class="advantages">
-          <div class="col-sm-4">
-            <div class="item">
-              <div><i class="fa fa-500px"></i>
-                    <h3>Quality Assurance</h3>
-              </div>
-              <p>We always stand for doing our job fast and at the highest level as understand people value their time and money.</p>
+<p>В «ТЕХНОЛОГИИ ЧИСТОТЫ» внедрены сертифицированные системы менеджмента качества ISO 9001:2015.</p></div>
+                </div>
             </div>
-          </div>
         </div>
     </div>
-    </div>
+</div>
 
 
+<div class="block-img-2">
+    <section class="parallax">
+        <div class="container">
+            <h1>
+                Лидер во внедрении и сопровождении комплекса санитарии и гигиены
+            </h1>
+        </div>
+    </section>
+</div>
 
-<div class="text-container">
-<div class="container">
-  <div class="row">
-      <div class="col-md-12">
-               <div class="box">
-                <div class="text-element"><img src="img/page1-img1-288x300.jpg" alt=""></div>
-                <div class="text-element-2"><div class="text-element">WATER FILTERS</div><p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p></div>
-               </div>
-  </div>
-  </div>
+
+<!-- Перимущества 2-->
+<section id="reviews" name="reviews">
+        <div class="container">
+            <div class="h2-description">
+                <h1>Отзывы клиентов</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner text-center">
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>На протяжении многих лет ООО "Рижский хлеб" для выполнения основных своих программ по
+производственной очистке и санитарной обработке помещений и оборудования пользуется средствами производства
+группы компаний "Технология чистоты". Компания зарекомендовала себя, как надежный партнер, решающий все
+поставленные перед ней задачи.
+</p>
+                                            <small>Рижский хлеб</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 2 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>На протяжении многих лет ООО "Рижский хлеб" для выполнения основных своих программ по
+производственной очистке и санитарной обработке помещений и оборудования пользуется средствами производства
+группы компаний "Технология чистоты". Компания зарекомендовала себя, как надежный партнер, решающий все
+поставленные перед ней задачи.
+</p>
+                                            <small>Рижский хлеб</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 3 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p>На протяжении многих лет ООО "Рижский хлеб" для выполнения основных своих программ по
+производственной очистке и санитарной обработке помещений и оборудования пользуется средствами производства
+группы компаний "Технология чистоты". Компания зарекомендовала себя, как надежный партнер, решающий все
+поставленные перед ней задачи.
+</p>
+                                            <small>Рижский хлеб</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!-- Bottom Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="img/partners/s_5c435a093a21.png" alt="">
+                        </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="img/partners/3f7705f3f007af1e196a71c4e77aa554.gif" alt="">
+                        </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="img/partners/7bd644f4ce1d7ea2eb16801a0d52300f.jpg" alt="">
+                        </li>
+                        </ol>
+                        <!-- Carousel Buttons Next/Prev -->
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<div class="text-container-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="video-box">
+                    <div class="video-element">
+                        <iframe width="480" height="270" src="https://www.youtube.com/embed/E-U5KiE34Kk" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="video-element-2">
+                        <div class="text-element-10">Компания «Технология Чистоты»</div>
+                        <p>ГК «Технология чистоты» выпускает большой ассортимент продукции более 180 наименований индустриальных очистителей, профессиональных моющих и дезинфицирующих средств для решения широкого спектра задач на предприятиях пищевой отрасли, агропромышленного комплекса, индустрии, транспорта.</p>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="block-img-3">
-        <section class="parallax">
-            <div>
-                <h1>
-    Получайте новые статьи на почту
-  </h1>
-            </div>
-        </section>
-    </div>
-
-
-
-    <div class="container">
+    <section class="parallax">
         <div class="container">
-     
- 
- 
-<div class="container gallery-container">
-  
-    <h1 class="text-center">Фото компании</h1>
-      
-    <div class="tz-gallery">
-  
-        <div class="row mb-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/post-1-1170x780.jpg">
-                    <img src="img/post-1-1170x780-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/post-2-1170x780.jpg">
-                    <img src="img/post-2-1170x780-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/post-3-1170x780.jpg">
-                    <img src="img/post-3-1170x780-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
+            <h1>
+                22-х летний опыт комплексного внедрения и сопровождения
+            </h1>
         </div>
-          <div class="row card-block"> 
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/post-4-1170x780.jpg">
-                    <img src="img/post-4-1170x780-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/project-1.jpg">
-                    <img src="img/project-1-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/project-7-1024x576.jpg">
-                    <img src="img/project-7-1024x576-min.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-         
-        </div>
-  
-    </div>
-  
+    </section>
 </div>
- 
-</div>
-      </div>
 
 
-
-
-        <div class="partners">
 <div class="container">
-  <div class="row">
-      <div class="col-md-12">
-               <div class="block-partners">
-                     <img src="img/partners/2f6a94ad593c95319b30ac74fd232aeb.jpg" width="100px" alt="">
-                     <img src="img/partners/3f7705f3f007af1e196a71c4e77aa554.gif" width="100px" alt="">
-                     <img src="img/partners/7bd644f4ce1d7ea2eb16801a0d52300f.jpg" width="100px" alt="">
-                     <img src="img/partners/90a4a5452ec4e590cf550cf08a7b3ae6.jpg" width="100px" alt="">
-                     <img src="img/partners/391695582e0d54357eb3b0042305319e.jpg" width="100px" alt="">
-                     <img src="img/partners/a1220bbc47530815b6e8c1b7938c2c70.jpg" width="100px" alt="">
-                     <img src="img/partners/aeaa62578c9681b1f1177af72a6250bf.jpg" width="100px" alt="">
-                     <img src="img/partners/bb71f88248a613d3b3857e1a7bc07026.jpg" width="100px" alt="">
-               </div>
-  </div>
-  </div>
-    </div>
-</div>
+    <div class="container">
 
 
+        <div class="container gallery-container">
 
- <div class="footer">
-        <div class="container">
-            <div class="footer-block">
-                <div class="logo-footer"><img src="img/logo.png" alt=""></div>
-                    <div class="menu-footer">
-                        <ul>
-                            <li><a href="#home">Главная</a></li>
-                            <li><a href="#advantages">Наши услуги</a></li>
-                            <li><a href="#company">О компании</a></li>
-                            <li><a href="#services">Наши услуги</a></li>
-                            <li><a href="#reviews">Отзывы</a></li>
-                            <li><a href="#contacts">Контакты</a></li>
-                        </ul>
+            <h1 class="text-center">Фото компании</h1>
+
+            <div class="tz-gallery">
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/post-1-1170x780.jpg">
+                                <img src="img/post-1-1170x780-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/post-2-1170x780.jpg">
+                                <img src="img/post-2-1170x780-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/post-3-1170x780.jpg">
+                                <img src="img/post-3-1170x780-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <hr>
-                <div class="copyright">
-                    <p>© 2018 MaxBuild. Все права защищены</p>
+                <div class="row card-block">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/post-4-1170x780.jpg">
+                                <img src="img/post-4-1170x780-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/project-1.jpg">
+                                <img src="img/project-1-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a class="lightbox" href="img/project-7-1024x576.jpg">
+                                <img src="img/project-7-1024x576-min.jpg" alt="Park" class="card-img-top">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block-partners">
+                    <img src="img/partners/2f6a94ad593c95319b30ac74fd232aeb.jpg" width="100px" alt="">
+                    <img src="img/partners/3f7705f3f007af1e196a71c4e77aa554.gif" width="100px" alt="">
+                    <img src="img/partners/7bd644f4ce1d7ea2eb16801a0d52300f.jpg" width="100px" alt="">
+                    <img src="img/partners/90a4a5452ec4e590cf550cf08a7b3ae6.jpg" width="100px" alt="">
+                    <img src="img/partners/ccfbe1bf189e35fccf062a9b1fe9c0ce.gif" width="100px" alt="">
+                    <img src="img/partners/a1220bbc47530815b6e8c1b7938c2c70.jpg" width="100px" alt="">
+                    <img src="img/partners/aeaa62578c9681b1f1177af72a6250bf.jpg" width="100px" alt="">
+                    <img src="img/partners/bb71f88248a613d3b3857e1a7bc07026.jpg" width="100px" alt="">
                 </div>
             </div>
         </div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-	<script src="js/bannerSlider.js"></script>
-	<script src="js/slider.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/tabs.js"></script>
-  <script src="js/light-box.js"></script>
-  <script>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <!--  <div class="footer-block">
+             <div class="logo-footer"><img src="img/logo.png" alt=""></div>
+                 <div class="menu-footer">
+                     <ul>
+                         <li><a href="#home">Главная</a></li>
+                         <li><a href="#advantages">Наши услуги</a></li>
+                         <li><a href="#company">О компании</a></li>
+                         <li><a href="#services">Наши услуги</a></li>
+                         <li><a href="#reviews">Отзывы</a></li>
+                         <li><a href="#contacts">Контакты</a></li>
+                     </ul>
+                 </div>
+             </div> -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-footer"><img src="img/logo.png" alt=""></div>
+            </div>
+
+            <!-- <div class="col-md-3">
+            <h4>Меню</h4>
+            <ul>
+              <li>Главная</li>
+              <li>Каталог</li>
+              <li>О компании</li>
+              <li>Награды</li>
+              <li>Видео</li>
+              <li>Фото компании</li>
+              <li>Контакты</li>
+            </ul>
+          </div> -->
+
+            <div class="col-md-4">
+                <h4>Социальные сети</h4>
+                <ul>
+                    <li>Инстаграмм</li>
+                    <li>Фейсбук</li>
+                    <li>Ютуб</li>
+                    <li>Вконтакте</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Контакты</h4>
+                <ul>
+                    <li>121471, г. Москва, ул. Рябиновая, 26, стр. 2, БЦ «WEST PLAZA»</li>
+                    <li>Телефон (многоканальный): +7 (495) 287-09-09</li>
+                    <li>Региональный отдел: region-4@gryazi.net</li>
+                    <li>Продажа моющих средств: sale@gryazi.net</li>
+                    <li>Продажа оборудования: equip@gryazi.net</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>© 2018 MaxBuild. Все права защищены</p>
+        </div>
+    </div>
+</div>
+
+<!-- Popup -->
+<div class="popup popup-call">
+    <!-- Само (белое) модальное окно -->
+    <div class="popup-dialog">
+        <!-- Содежримое -->
+        <div class="popup-content">
+            <button type="submit" class="popup-close">&times;</button>
+            <h4 class="popup-header">
+                Заинтересовало?
+            </h4>
+            <p>Оставьте свои контактные данные <br>для связи</p>
+            <form method="post" name="third-form" action="mailer/smart.php" class="form">
+                <input name="user_name" required type="text" placeholder="Ваше имя">
+                <input name="user_phone" id="phone-3" required type="text" placeholder="Ваш телефон">
+                <button id="third-btn" type="submit" class="popup-thanks-btn">Оставить заявку</button>
+                <p>Наш менеджер перезвонит Вам в течене 15 минут для консультации.<br>* при заказе строительства дома
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Popup -->
+<div class="popup popup-thanks">
+    <!-- Само (белое) модальное окно -->
+    <div class="popup-dialog">
+        <!-- Содежримое -->
+        <div class="popup-content">
+            <button type="submit" class="popup-close">&times;</button>
+            <h4 class="popup-header">
+                Спасибо за заявку
+            </h4>
+            <p>В течение 5 минут мы Вам перезвоним</p>
+            <button class="thanks-btn button-small">Вернуться на сайт</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/bannerSlider.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/light-box.js"></script>
+<script src="js/forms.js"></script>
+<script>
     baguetteBox.run('.tz-gallery');
 </script>
 </body>
