@@ -83,6 +83,49 @@ body {
     text-align: left;
     color: #30373f;
 }
+
+.phone{
+      display: flex;
+      flex-direction: column;
+}
+
+.phone li{
+      padding: 0px 15px 0 40px;
+}
+
+.text-phone p{
+    font-family: Arial, sans-serif;
+    text-transform: none;
+    font-weight: 300;
+    color: #000;
+    /*padding: 0px 15px 0 40px;*/
+    margin: 0;
+}
+.phone-number > .nav > li > a{
+    font-family: Arial, sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-transform: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.fa-w-16{
+  width: 15px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  color: #337ab7;
+}
+.text-phone-2 p{
+    color: #000;
+    padding-left: 7px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .navbar-right{
       margin-top: 10px;
 }
@@ -90,16 +133,16 @@ body {
 .slide__text h5{
       color: #ffffff;
     font-family: "Roboto", Sans-serif;
-    font-size: 72px;
+    font-size: 42px;
     font-weight: 900;
-    line-height: 86px;
+    line-height: 66px;
     text-align: left;
     width: 90%
 }
 
 .button-slider{
     padding: 17px 0;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 /*
 *****************************************
@@ -274,22 +317,34 @@ img.slide__image__top-position {
     font-size: 42px;
     font-weight: 400;
     display: inline-block;
-    padding-right: 60px;
+  /*  padding: 60px;*/
+    padding-right: 20px;
     text-transform: uppercase;
     line-height: 1;
-    padding-bottom: 15px;
 }
 
 .text-element-2{
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 42px 15px 0px 0px;
+   /* padding: 20px 15px 0px 0px;*/
+    padding: 50px 0 0 30px;
     display: inline-block;
     width: 60%;
     color: #3b3d3f;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
 
+.text-element-4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 60px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-bottom: 15px;
+}
 
 .box{
     display: inline-block;
@@ -362,6 +417,7 @@ ul.tabs{
   margin-right: 0;
 }
 .columns_4 figure{
+    height: 100%;
    width:24%;
    margin-right:1%;
 }
@@ -404,7 +460,7 @@ div#columns figure {
 }
 
 div#columns figure img {
-  width: 100%;
+    width: 100%;
   border-bottom: 1px solid #ccc;
   padding-bottom: 15px;
   margin-bottom: 5px;
@@ -478,7 +534,8 @@ a.button:focus{
     background-attachment: fixed;
     background-image: url(../img/parallax-1.jpg);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    background-size: cover;
     height: 320px;
 }
 
@@ -492,10 +549,11 @@ a.button:focus{
 
 .block-img-3 {
     background-attachment: fixed;
-    background-image: url(../img/parallax-3.png);
+    background-image: url(../img/parallax-3.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     height: 320px;
+    filter: brightness(30%);
 }
 
 .parallax h1{
@@ -650,7 +708,7 @@ a.button:focus{
 }
 
 .item{
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -716,10 +774,11 @@ a.button:focus{
 
 #quote-carousel .carousel-indicators {
     position: relative;
-    right: 50%;
-    top: auto;
-    bottom: 0px;
-    height: 128px;
+    padding: 30px 0;
+    /*right: 50%;
+    top: auto;*/
+    bottom: 0;
+    height: 100%;
 }
 
 #quote-carousel .carousel-indicators li {
@@ -747,12 +806,12 @@ a.button:focus{
     margin: 0;
 }
 
-.item blockquote p:before {
+/*.item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
-}
+}*/
 
 /*Блок видео*/
 .video-element{
@@ -783,9 +842,60 @@ a.button:focus{
 }
 /*Футер*/
 .footer {
-     background-image: url(../img/footer-img.jpg);
+    background-image: url(../img/footer-img.jpg);
+    filter: brightness(70%);
 }
 
+.equipment li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    color: #c0c0c0;
+}
+
+.equipment li a:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    color: #fff;
+}
+
+.footer h4{
+     font-size: 17px;
+     text-transform: uppercase;
+}
+
+.footer .contacts-text span{
+     color: #fff;
+     padding-left: 4px;
+}
+
+.footer i{
+     color: #fff;
+     padding-right: 13px;
+}
+
+.footer .fa-facebook-f{
+     padding-right: 17px;
+}
+
+.footer .fa-vk{
+     padding-right: 11px;
+}
+
+.footer  .social a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.footer  .social a:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
 .footer img{
      width: 170px;
 }
@@ -919,6 +1029,14 @@ a.button:focus{
     font-size: 3rem;
     color: #ffffff;
 }
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
 .popup-content {
     text-align: center;
 }

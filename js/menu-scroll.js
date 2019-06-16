@@ -13,7 +13,7 @@ jQuery(window).scroll(function() {
     })
 });
 
-$("nav, .menu-footer, .menu-footer-2").on("click", "a", function(event) {
+$("nav, .equipment, .menu-footer-2").on("click", "a", function(event) {
     // исключаем стандартную реакцию браузера
     event.preventDefault();
 

@@ -13,7 +13,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="125" column="10" lean-forward="true" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+              <folding>
+                <element signature="e#15833#18220#0" />
+                <element signature="n#figure#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#1;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#3;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#4;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#5;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#6;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#7;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#8;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#9;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#10;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#11;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#1;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#2;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#3;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#4;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#5;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#6;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#7;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#8;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#9;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#10;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#figure#11;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#25422#25567#0" />
+                <element signature="e#25591#26909#0" />
+                <element signature="e#26934#29208#0" />
+                <element signature="e#29211#29461#0" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#38547#39621#0" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#42429#43495#0" />
+                <element signature="e#43568#44157#0" />
+                <element signature="e#44196#44325#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4608">
+              <caret line="331" column="19" selection-start-line="331" selection-start-column="19" selection-end-line="331" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,14 +90,21 @@
       <find>button-text-block</find>
       <find>text-element-button</find>
       <find>elementor-button</find>
+      <find>img/ECO</find>
+      <find>columns_4</find>
+      <find>text-element</find>
+      <find>carousel</find>
+      <find>slide</find>
+      <find>carousel-indicators</find>
+      <find>text-el</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/forms.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -70,16 +135,6 @@
             <path>
               <item name="Clining" type="b2602c69:ProjectViewProjectNode" />
               <item name="Clining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clining" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clining" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,32 +171,34 @@
       <option name="presentableId" value="Default" />
       <updated>1560458335751</updated>
       <workItem from="1560458337305" duration="4398000" />
+      <workItem from="1560704594617" duration="13267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4398000" />
+    <option name="totallyTimeSpent" value="17665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14754099" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,26 +215,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Clining - копия/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="116" column="33" lean-forward="true" selection-start-line="116" selection-start-column="33" selection-end-line="116" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Clining - копия/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="104" />
+        <state relative-caret-position="-4608">
+          <caret line="331" column="19" selection-start-line="331" selection-start-column="19" selection-end-line="331" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="125" column="10" lean-forward="true" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
           <folding>
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#15833#18220#0" />
+            <element signature="n#figure#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#1;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#2;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#3;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#4;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#5;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#6;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#7;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#8;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#9;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#10;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#11;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#1;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#2;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#3;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#4;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#5;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#6;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#7;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#8;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#9;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#10;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#figure#11;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#25422#25567#0" />
+            <element signature="e#25591#26909#0" />
+            <element signature="e#26934#29208#0" />
+            <element signature="e#29211#29461#0" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ol#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#38547#39621#0" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#42429#43495#0" />
+            <element signature="e#43568#44157#0" />
+            <element signature="e#44196#44325#0" />
           </folding>
         </state>
       </provider>
