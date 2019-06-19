@@ -774,11 +774,10 @@ a.button:focus{
 
 #quote-carousel .carousel-indicators {
     position: relative;
-    padding: 30px 0;
-    /*right: 50%;
-    top: auto;*/
-    bottom: 0;
-    height: 100%;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    height: 128px;
 }
 
 #quote-carousel .carousel-indicators li {
@@ -794,6 +793,13 @@ a.button:focus{
     border: 1px solid #90cbfd;
 }
 
+.cutstring-toggle {
+  color: #337ab7;
+  text-decoration: underline;
+  cursor: hand;
+  cursor: pointer;
+}
+
 #quote-carousel .carousel-indicators .active {
     width: 128px;
     height: 128px;
@@ -804,6 +810,7 @@ a.button:focus{
 .item blockquote {
     border-left: none;
     margin: 0;
+    height: 190px;
 }
 
 /*.item blockquote p:before {
