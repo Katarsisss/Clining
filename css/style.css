@@ -628,7 +628,7 @@ a.button:focus{
     background-repeat: no-repeat;
     background-position: center; 
     height: 320px;
-    filter: brightness(30%);
+    /*filter: brightness(30%);*/
 }
 
 .parallax h1{
@@ -1133,18 +1133,101 @@ button::-moz-focus-inner {
     margin-bottom: 3rem;
 }
 
-/*Картинка вместо видео*/
-.centered {
+/*Форма рассылки*/
+.subscribe {
+  /*max-width: 1170px;*/
+  /*width: 100%;*/
+  /*margin: 90px auto 124px auto;*/
+  /*padding: 0 15px;*/
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
-#splash {
-  cursor: pointer;
+.subscribe h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /*font-weight: 900;*/
+  font-size: 37px;
+  line-height: 52px;
+  margin: 0px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
 }
+
+.subscribe h2 {
+  text-align: center;
+  font-family: 'elmessiri-regular';
+  /*font-weight: 900;*/
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 18px;
+  margin-top: 0px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subscribe p {
+  text-align: center;
+  font-size: 12;
+  line-height: 24px;
+  color: #8c8f94;
+  font-weight: 400;
+}
+
+.subscribe .form-2 {
+  max-width: 460px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  line-height: 24px;
+  height: 28px;
+  /*border: 1px solid #26292c;*/
+  border-radius: 28px;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  padding: 26px;
+  margin-bottom: 28px;
+  background: #fff;
+}
+
+.subscribe .form__input {
+     position: absolute;
+    top: 15px;
+    border: none;
+    font-size: 16px;
+    color: #26292c;
+    width: 70%;
+    font-weight: 400;
+}
+
+ .subscribe .form__input:focus {
+  outline: none;
+}
+
+.subscribe .form__button {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  color: #ffffff;
+  background-color: #337ab7;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 32px;
+  transform: capitalize;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: grey 0 0 2px;
+}
+
+.subscribe .button:focus {
+  outline: none;
+}
+/*Форма рассылки*/
+
+
 @media (max-width: 1199px) {
     .popup-content {
         width: 60%;
