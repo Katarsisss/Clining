@@ -343,6 +343,11 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+.nav > li > a{
+  padding: 15px 10px;
+}
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -4061,7 +4066,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 5px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4380,6 +4385,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  clear: b
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4402,8 +4408,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -4438,8 +4444,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    /*padding-top: 12px;
+    padding-bottom: 12px;*/
   }
 }
 .navbar-form {
@@ -4620,6 +4626,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
+  /*margin-top: 18px;*/
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -6583,7 +6590,7 @@ button.close {
 .btn-group-vertical > .btn-group:after,
 .nav:after,
 .navbar:after,
-.navbar-header:after,
+/*.navbar-header:after,*/
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
@@ -6782,9 +6789,18 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 2200px) {
+  .nav > li > a{
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
   .hidden-lg {
     display: none !important;
+  }
+  .nav > li > a{
+    padding: 10px 5px;
   }
 }
 .visible-print {

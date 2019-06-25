@@ -84,10 +84,22 @@ body {
     color: #30373f;
 }
 
+/*.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  margin-top: 18px;
+}*/
+
+.nav > li > a{
+  padding: 15px 10px;
+}
+.navbar-fixed-top{
+  position: relative;
+}
 .phone{
       display: flex;
       flex-direction: column;
 }
+
 
 .phone li{
       padding: 0px 15px 0 40px;
@@ -110,6 +122,10 @@ body {
     font-weight: 300;
     font-size: 14px;
     text-decoration: underline;
+}
+
+.phone-number-2{
+  display: none;
 }
 
 .fa-w-16{
@@ -215,7 +231,7 @@ ul.bannerSlider{
 	position: absolute;
 	width: 100%;
 	height: 600px;
-	background: rgba(33,33,33,.7);
+	/*background: rgba(33,33,33,.7);*/
 }
 .bannerSlider .slick-slide {
 	position: relative;
@@ -396,8 +412,63 @@ ul.tabs{
 
 /*Карточки товаров*/
 
+/*Плашка акция*/
+.ribbon-wrapper-red {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
 
-#wrap{
+.ribbon-red {
+  font: bold 15px Sans-Serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #f00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#f00)); 
+  background-image: -webkit-linear-gradient(top, #f00, #f00); 
+  background-image:    -moz-linear-gradient(top, #f00, #f00); 
+  background-image:     -ms-linear-gradient(top, #f00, #f00); 
+  background-image:      -o-linear-gradient(top, #f00, #f00); 
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-red:before, .ribbon-red:after {
+  content: "";
+ /* border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;*/
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-red:before {
+  left: 0;
+}
+.ribbon-red:after {
+  right: 0;
+}
+
+figure{
+   position: relative;
+}
+
+#wrap, #wrap-2, #wrap-3, #wrap-4, #wrap-5{
   width: 100%;
   max-width: 1100px;
   margin: 40px auto;
@@ -460,6 +531,7 @@ div#columns figure {
 }
 
 div#columns figure img {
+    height: 250px;
     width: 100%;
   border-bottom: 1px solid #ccc;
   padding-bottom: 15px;
@@ -507,14 +579,17 @@ a.button:focus{
   color:#f1f2f3;
   text-decoration:none;
 }
-@media screen and (max-width: 960px) { 
-  #columns figure { width: 24%; }
+@media screen and (max-width: 1200px) { 
+  #columns figure { width: 32%; }
+}
+@media screen and (max-width: 990px) { 
+  #columns figure { width: 48%; }
 }
 @media screen and (max-width: 767px) {
-  #columns figure { width:32%;}
+  #columns figure { width:48%;}
 }
 @media screen and (max-width: 600px) {
-  #columns figure { width: 49%;}
+  #columns figure { width: 100%;}
 }
 @media screen and (max-width: 500px) {
   #columns figure { width: 100%;}
@@ -564,10 +639,13 @@ a.button:focus{
 }
 
 /*Прогресс бар*/
-.text-container-10{
+/*.text-container-10{
     background-color: #f2f2f2;
-}
+}*/
 
+#reviews{
+  background-color: #f2f2f2;
+}
 .partners{
    background-color: #fff;
 }
@@ -1054,6 +1132,19 @@ button::-moz-focus-inner {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+
+/*Картинка вместо видео*/
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#splash {
+  cursor: pointer;
+}
 @media (max-width: 1199px) {
     .popup-content {
         width: 60%;
@@ -1065,7 +1156,16 @@ button::-moz-focus-inner {
         font-size: 1.5rem;
     }
     .button-small {
-        padding: 1.7rem 1.6rem;
+        /*padding: 1.7rem 1.6rem;*/
+    }
+    .navbar-nav > li > a{
+      padding: 0;
+    }
+    .nav > li > a{
+      padding: 0px 5px;
+    }
+    .navbar-nav{
+      font-size: 14px;
     }
 }
 @media (max-width: 991px) {
@@ -1108,7 +1208,7 @@ button::-moz-focus-inner {
     .houses .house-3 {
         background: #ffffff url(../img/houses/3.jpg) 100% center no-repeat;
         background-size: cover;
-    }
+    }  
 }
 @media (max-width: 767px) {
     .popup-content {
@@ -1116,6 +1216,9 @@ button::-moz-focus-inner {
     }
     .shop-card button {
         width: 70%;
+    }
+    .card-block{
+     padding: 10px 0 50px 0;
     }
     .houses .house h2 {
         text-align: center;
@@ -1134,6 +1237,81 @@ button::-moz-focus-inner {
     .houses .house-3 {
         background: #ffffff url(../img/houses/3.jpg) 100% center no-repeat;
         background-size: cover;
+    }
+    .slide__text h5{
+      font-size: 22px;
+    line-height: 36px;
+    }
+    .box-2{
+      flex-direction: column;
+      padding: 0;
+    }
+    .video-box{
+      flex-direction: column;
+      padding: 40px 0px 0px 0px;
+    }
+    .text-element{
+      text-align: center;
+    }
+    .text-element-2{
+      width: 100%;
+      padding: 0px 0 40px 30px;
+    }
+    .video-element{
+      text-align: center;
+      position: relative;
+      padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-element iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .video-element-2{
+      width: 100%;
+      padding: 40px 10px 30px 24px;
+    }
+    #quote-carousel .carousel-indicators .active{
+      width: 78px;
+      height: 78px;
+    }
+    .item blockquote{
+      height: 210px;
+    }
+    #quote-carousel{
+      padding: 0 10px 0px 10px;
+    }
+    .phone-number{
+        display: block;
+      position: absolute;
+      top: -3px;
+      left: 100px;
+      right: 20px;
+    }
+    .navbar-toggle{
+      z-index: 100;
+    }
+    .bannerSlider{
+      height: 300px;
+    }
+    .bannerSlider .slide__image::before{
+      height: 300px;
+    }
+    .bannerSlider .slide__image img {
+      height: 300px;
+    }
+    #reviews{
+      padding-bottom: 40px;
+    }
+    #reviews h1, #photo h1{
+      margin-top: 10px;
     }
 }
 @media (max-width: 672px) {
