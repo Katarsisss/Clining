@@ -554,8 +554,15 @@ div#columns figure figcaption {
   height:40px;
   font-weight:500;
   text-overflow:ellipsis;
+  display: inline-block;
 }
 
+div#columns figure span {
+  text-align: right;
+  float: right;
+  color: #ed2941;
+  font-weight: 600;
+}
 .price{
   font-size: 1.3rem;
   font-weight:400;
