@@ -83,7 +83,13 @@ body {
     text-align: left;
     color: #30373f;
 }
+.contacts-text li a{
+    font-size: 14px;
+}
 
+.contacts-text li a:hover{
+    font-size: 14px;
+}
 /*.navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   margin-top: 18px;
