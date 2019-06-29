@@ -347,6 +347,9 @@ img.slide__image__top-position {
     text-transform: uppercase;
     line-height: 1;
 }
+.text-element img {
+    width: 400px;
+}
 
 .text-element-2{
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -549,17 +552,17 @@ div#columns figure img {
 
 div#columns figure figcaption {
   /*font-size: 1.9rem;*/
+    height: 65px;
   color: #444;
-  line-height: 1.5;
-  height:40px;
+  line-height: 2.5;
+  /*height:40px;*/
   font-weight:500;
   text-overflow:ellipsis;
   display: inline-block;
 }
 
-div#columns figure span {
-  text-align: right;
-  float: right;
+div#columns figure p {
+  text-align: center;
   color: #ed2941;
   font-weight: 600;
 }
@@ -662,9 +665,13 @@ a.button:focus{
 }
 
 /*Прогресс бар*/
-/*.text-container-10{
-    background-color: #f2f2f2;
-}*/
+
+.text-container-10 .video-element-2 a{
+width: 250px;
+}
+.text-container-10 .video-element-2 p{
+    text-align: justify;
+}
 
 #reviews{
   background-color: #f2f2f2;
@@ -1070,15 +1077,15 @@ a.button:focus{
 /* FORMS */
 /* Стили формы */
 .form {
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
-.form input {
-    margin-bottom: 3rem;
+.form input, .form p select {
+    margin-bottom: 1rem;
     width: 100%;
     border: none;
     display: inline-block;
     background-color: #f7f7f7;
-    padding: 2rem 7rem 2rem 2.5rem;
+    padding: 1rem 7rem 1rem 2.5rem;
 }
 .form input::-webkit-input-placeholder {
     font-family: 'Gotham_reg', sans-serif;
@@ -1088,7 +1095,7 @@ a.button:focus{
     margin-bottom: 2rem;
     width: 100%;
     border: none;
-    padding: 2.5rem 5rem;
+    padding: 1rem 5rem;
     background-color: #006ec4;
     font-family: 'Gotham_bold', sans-serif;
     color: #ffffff;
@@ -1114,7 +1121,7 @@ a.button:focus{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .popup-content {
-    width: 30%;
+    width: 50%;
     position: fixed;
     left: 50%;
     top: 20%;
