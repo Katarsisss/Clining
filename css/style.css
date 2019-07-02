@@ -244,7 +244,7 @@ ul.bannerSlider{
 }
 .bannerSlider .slick-slide {
 	position: relative;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 .bannerSlider .slide__image img {
 	width: 100%;
