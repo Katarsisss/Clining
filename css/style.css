@@ -605,6 +605,11 @@ a.button:focus{
   color:#f1f2f3;
   text-decoration:none;
 }
+
+.video-box a.button{
+  margin-top:25px;
+}
+
 @media screen and (max-width: 1200px) { 
   #columns figure { width: 32%; }
 }
